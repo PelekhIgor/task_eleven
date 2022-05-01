@@ -1,0 +1,81 @@
+
+.massage {
+    max-width: 740px;
+    margin: auto;
+    padding-top: 50px;
+}
+.inp-cont{
+    display: flex;
+    margin-bottom: 30px;
+}
+#input{
+    width: 320px;
+    height: 38px;
+    border: 1px solid darkgrey;
+    background-color: transparent;
+    border-radius: 1px;
+    font-size: 20px;
+    color: black;
+    margin-right: 15px;
+
+}
+#input::placeholder{
+    font-family: 'Roboto';
+    color: #bebebe;
+}
+
+#container{
+    width: 670px;
+    height: 250px;
+    border: 1px solid darkgrey;
+    color: black;
+    border-radius: 1px;
+    font-size: 20px;
+    overflow: auto;
+    list-style-type: none;
+    padding: 10px;
+}
+.btn{
+    background-color: darkgray;
+    color: white;
+    padding: 14px 50px ;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;}
+/*.btn:hover {*/
+/*    background-color: #626362;*/
+/*}*/
+
+
+
+#li {
+    background-color:red;
+    width:100%;
+    height:30px;
+}
+
+.error-cont{
+    color: red;
+    font-size: 15px;
+}
+
+.item{
+    position: relative;
+    width: auto;
+    height: 50px;
+    background-color: lemonchiffon;
+    border: 1px solid cadetblue;
+
+
+}
+.delete{
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.complete{
+    background-color: green;
+}
